@@ -1,0 +1,46 @@
+/* reset.css */
+
+/* 1. Remove margens, paddings e bordas padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Remove estilos padrão de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* 3. Remove decorações e estilos de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Tira borda padrão de inputs, buttons */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 5. Melhora acessibilidade de botões */
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* 6. Define fonte e cor padrão */
+body {
+  font-family: sans-serif;
+  color: #000;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+/* 7. Garante 100% de altura */
+html, body {
+  height: 100%;
+}
